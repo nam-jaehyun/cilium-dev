@@ -19,5 +19,3 @@ fi
 
 rm -rf /tmp/build
 
-echo "Please log in again"
-

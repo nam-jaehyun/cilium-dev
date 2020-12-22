@@ -6,5 +6,3 @@ sudo add-apt-repository "deb [arch=amd64] http://download.virtualbox.org/virtual
 sudo apt-get update
 sudo apt-get -y install virtualbox-6.0
 
-echo "Please reboot the machine"
-

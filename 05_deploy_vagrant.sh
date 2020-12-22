@@ -6,5 +6,3 @@ sudo systemctl start rpc-statd
 cd ~/cilium
 contrib/vagrant/start.sh
 
-echo "Enjoy Cilium contribution"
-
