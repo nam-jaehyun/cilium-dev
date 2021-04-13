@@ -3,6 +3,6 @@
 sudo systemctl enable rpc-statd
 sudo systemctl start rpc-statd
 
-cd ~/cilium
-contrib/vagrant/start.sh
+cd $GOPATH/src/cilium/cilium
+K8S=1 NWORKERS=1 contrib/vagrant/start.sh
 
